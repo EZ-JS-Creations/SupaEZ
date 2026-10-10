@@ -1,0 +1,27 @@
+{
+  "name": "supae-z",
+  "version": "1.0.0",
+  "description": "A lightweight CDN-friendly helper for connecting browser apps and HTML elements to Supabase.",
+  "license": "MIT",
+  "author": "SupaEZ contributors",
+  "keywords": [
+    "supabase",
+    "cdn",
+    "database",
+    "browser",
+    "html",
+    "no-build"
+  ],
+  "main": "dist/supaez.global.js",
+  "browser": "dist/supaez.global.js",
+  "files": [
+    "dist/",
+    "examples/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.cjs",
+    "check": "node --check dist/supaez.global.js"
+  }
+}
